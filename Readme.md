@@ -39,4 +39,11 @@
 
 ---
 
+## License
+This project is licensed under the MIT License.
+
+
+---
+
+
 Please let me know if you have any issues!, Thanks! :)
