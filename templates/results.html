@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECG Analysis Results</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ECG Analysis Results</h1>
+        <div class="image-container">
+            <img src="{{ url_for('uploaded_file', filename=image) }}" alt="ECG Image">
+        </div>
+        <div class="results-container">
+            <h2>Analysis Summary:</h2>
+            <ul>
+                {% for item in results %}
+                    <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <a href="/">Upload Another ECG</a>
+    </div>
+</body>
+</html>
