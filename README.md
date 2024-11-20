@@ -30,7 +30,7 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/ecg-analyzer.git
+git clone https://github.com/Carlosjr5/ecg-analyzer.git
 ```
 
 2. Navigate to the project directory
@@ -59,22 +59,6 @@ npm run build
 yarn build
 ```
 
-## 📁 Project Structure
-
-```
-ecg-analyzer/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── assets/
-│   ├── hooks/
-│   ├── utils/
-│   └── App.jsx
-├── public/
-├── README.md
-└── package.json
-```
-
 ## 🚀 Usage
 
 1. Upload your ECG data file
@@ -82,24 +66,16 @@ ecg-analyzer/
 3. View the results and generate reports
 4. Export or save your analysis
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
 ## 📝 License
 
 This project is licensed under the MIT License
 
 ## 👥 Authors
 
-- Your Name - [GitHub Profile](https://github.com/yourusername)
+- Minn
 
 ## 📧 Contact
 
-Your Name - your.email@example.com
+Not Found
 
 Project Link: [https://github.com/yourusername/ecg-analyzer](https://github.com/yourusername/ecg-analyzer)
