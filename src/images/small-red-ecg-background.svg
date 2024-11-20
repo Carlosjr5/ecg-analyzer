@@ -1,0 +1,33 @@
+<svg width="313" height="157" viewBox="0 0 313 157" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M30 81.9508H53.9022C54.6538 81.9508 55.3419 81.5294 55.6836 80.86L61.3304 69.7957C62.1209 68.2469 64.3748 68.375 64.9848 70.0034L70.6762 85.198C71.3988 87.1273 74.2141 86.8358 74.526 84.7993L81.882 36.7814C82.2321 34.4966 85.5349 34.5281 85.8413 36.8191L95.909 112.101C96.2186 114.415 99.5676 114.413 99.8741 112.098L104.018 80.791C104.298 78.6764 107.251 78.4104 107.905 80.441L108.543 82.4249C109.19 84.4368 112.109 84.2003 112.424 82.1104L117.37 49.297C117.699 47.1081 120.814 46.9973 121.299 49.1572L127.504 76.816C127.968 78.8836 130.907 78.9047 131.401 76.8441L134.407 64.2964C134.879 62.3253 137.646 62.2261 138.258 64.1583L141.874 75.5713C142.138 76.4024 142.909 76.9672 143.781 76.9672H166" stroke="#EA384E" stroke-opacity="0.5" stroke-width="3" stroke-linecap="round"/>
+<path d="M168 76.9508H191.902C192.654 76.9508 193.342 76.5294 193.684 75.86L199.33 64.7957C200.121 63.2469 202.375 63.375 202.985 65.0034L208.676 80.198C209.399 82.1273 212.214 81.8358 212.526 79.7993L219.882 31.7814C220.232 29.4966 223.535 29.5281 223.841 31.8191L233.909 107.101C234.219 109.415 237.568 109.413 237.874 107.098L242.018 75.791C242.298 73.6764 245.251 73.4104 245.905 75.441L246.543 77.4249C247.19 79.4368 250.109 79.2003 250.424 77.1104L255.37 44.297C255.699 42.1081 258.814 41.9973 259.299 44.1572L265.504 71.816C265.968 73.8836 268.907 73.9047 269.401 71.8441L272.407 59.2964C272.879 57.3253 275.646 57.2261 276.258 59.1583L279.874 70.5713C280.138 71.4024 280.909 71.9672 281.781 71.9672H304" stroke="#EA384E" stroke-opacity="0.5" stroke-width="3" stroke-linecap="round"/>
+<mask id="mask0_2229_4278" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="313" height="157">
+<rect x="0.5" y="0.5" width="52" height="52" stroke="black"/>
+<rect x="52.5" y="0.5" width="52" height="52" stroke="black"/>
+<rect x="104.5" y="0.5" width="52" height="52" stroke="black"/>
+<rect x="156.5" y="0.5" width="52" height="52" stroke="black"/>
+<rect x="208.5" y="0.5" width="52" height="52" stroke="black"/>
+<rect x="260.5" y="0.5" width="52" height="52" stroke="black"/>
+<rect x="0.5" y="52.5" width="52" height="52" stroke="black"/>
+<rect x="52.5" y="52.5" width="52" height="52" stroke="black"/>
+<rect x="104.5" y="52.5" width="52" height="52" stroke="black"/>
+<rect x="156.5" y="52.5" width="52" height="52" stroke="black"/>
+<rect x="208.5" y="52.5" width="52" height="52" stroke="black"/>
+<rect x="260.5" y="52.5" width="52" height="52" stroke="black"/>
+<rect x="0.5" y="104.5" width="52" height="52" stroke="black"/>
+<rect x="52.5" y="104.5" width="52" height="52" stroke="black"/>
+<rect x="104.5" y="104.5" width="52" height="52" stroke="black"/>
+<rect x="156.5" y="104.5" width="52" height="52" stroke="black"/>
+<rect x="208.5" y="104.5" width="52" height="52" stroke="black"/>
+<rect x="260.5" y="104.5" width="52" height="52" stroke="black"/>
+</mask>
+<g mask="url(#mask0_2229_4278)">
+<rect x="-9" width="332" height="149" fill="url(#paint0_radial_2229_4278)"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_2229_4278" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(157 74.5) rotate(90) scale(74.5 166)">
+<stop stop-color="#E6B5B5"/>
+<stop offset="1" stop-color="#806565" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
