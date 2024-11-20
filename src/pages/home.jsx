@@ -13,8 +13,8 @@ const Home = () => {
     return (
         <section className='m-auto
         sm:w-[96%] sm:mt-32 
-        md:w-[90%] 
-        lg:w-[85%]'
+        md:w-[90%] md:mt-28
+        lg:w-[85%] lg:mt-2'
         >
             <Hero />
             <BeyondService />
