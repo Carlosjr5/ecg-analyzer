@@ -29,7 +29,7 @@ const Hero = () => {
     };
 
     return (
-        <section className="hero-section bg-slae-400 flex flex-col justify-center items-center h-screen
+        <section className="hero-section bg-slae-400 flex flex-col justify-center items-center lg:h-screen
         sm:flex-col sm:h-full
         md:flex-row
         ">
