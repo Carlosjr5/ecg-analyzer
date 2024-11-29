@@ -10,26 +10,30 @@ import InsightReview from './pages/insight-review.jsx'
 import Header from './components/header.jsx'
 import Footer from './components/footer.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+import { Toaster } from "@/components/ui/toaster"
+import AuthContextProvider from './contexts/auth-context'
 
 function App() {
 
   return (
     <>
-      <BrowserRouter>
-        <div>
-          <Header />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/analysis-result" element={<AnalysisResult />} />
-            <Route path="/insight-review" element={<InsightReview />} />
-          </Routes>
-          <Footer />
+      <AuthContextProvider>
+        <BrowserRouter>
+          <div>
+            <Header />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/analysis-result" element={<AnalysisResult />} />
+              <Route path="/insight-review" element={<InsightReview />} />
+            </Routes>
+            <Footer />
+            <Toaster />
 
-        </div>
-      </BrowserRouter>
+          </div>
+        </BrowserRouter>
+      </AuthContextProvider>
     </ >
   )
 }

@@ -8,14 +8,14 @@ import QuoteIcon from '../../images/quote.svg';
 
 const Testimonial = () => {
     return (
-        <section section className='mt-[4rem] flex flex-col gap-8 justify-center items-center p-5 md:p-0' >
+        <section className='mt-[4rem] flex flex-col gap-8 justify-center items-center p-5 md:p-0' >
             <motion.div className='flex flex-col gap-4 opacity-0'
                 whileInView={{
                     opacity: 1,
                     y: -30,
                 }}
             >
-                <label className='text-secondary font-medium font-inter text-[11px] flex items-center gap-2'>
+                <label className='text-my-secondary font-medium font-inter text-[11px] flex items-center gap-2'>
                     <svg width="4" height="16" viewBox="0 0 4 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M2 2L2 14" stroke="#E15A85" strokeWidth="4" strokeLinecap="round" />
                     </svg>

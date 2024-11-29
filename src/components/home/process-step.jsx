@@ -24,7 +24,7 @@ const ProcessStep = ({ num, title, content }) => {
         >
             <StepNumber num={num} />
             <label className='font-onest font-medium text-md flex flex-col gap-2'>
-                <p className='text-secondary font-inter font-medium uppercase text-lg'>{title}</p>
+                <p className='text-my-secondary font-inter font-medium uppercase text-lg'>{title}</p>
                 <p className='text-balance text-sm'>
                     {content}
                 </p>
