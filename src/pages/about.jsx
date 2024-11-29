@@ -8,7 +8,7 @@ const About = () => {
                 <img width="60%" src={AboutImage} alt="about-image" />
             </div>
             <div className='flex flex-col gap-4 w-full md:w-1/2'>
-                <label className='text-secondary font-medium font-inter text-[14px] flex items-center gap-2'>
+                <label className='text-my-secondary font-medium font-inter text-[14px] flex items-center gap-2'>
                     <svg width="4" height="16" viewBox="0 0 4 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M2 2L2 14" stroke="#E15A85" strokeWidth="4" strokeLinecap="round" />
                     </svg>

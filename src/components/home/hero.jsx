@@ -8,6 +8,7 @@ import CaptureEcgButton from "../home/capture-ecg-button";
 // Images,SVG
 import heroImage from "../../images/hero-image.png";
 import ecgBackground from "../../images/ecg-background.jpg";
+import uploadEcgIcon from "../../images/upload-ecg-icon.svg";
 
 const Hero = () => {
 
@@ -56,8 +57,11 @@ const Hero = () => {
                 <div className="flex flex-col gap-4 z-10 justify-center w-fit m-auto
                 md:flex-row md:m-0
                 ">
-                    <UploadEcgButton handleImageValidation={handleImageValidation} />
-                    <CaptureEcgButton handleImageValidation={handleImageValidation} />
+                    <UploadEcgButton style="default">
+                        <img src={uploadEcgIcon} alt="upload-ecg-svg" />
+                        UPLOAD ECG FILE
+                    </UploadEcgButton>
+                    {/* <CaptureEcgButton handleImageValidation={handleImageValidation} /> */}
                 </div>
                 {error && (
                     <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">

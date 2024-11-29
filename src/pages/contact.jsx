@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion'
 import React from 'react'
 
 const Contact = () => {
@@ -52,9 +53,9 @@ const Contact = () => {
                     <label className="text-lg font-onest text-primary-200 font-bold" htmlFor="messages">Messages</label>
                     <textarea className="border-2 border-primary-200 rounded-md p-4 h-[300px]" type="text" placeholder='What you want to tell us...' required />
                 </div>
-                <button className='bg-secondary font-onest font-bold text-white rounded-md py-4 hover:bg-white hover:text-secondary hover:border-2 hover:border-secondary transition-all ease-in-out text-sm md:text-lg '>
+                <motion.button className='bg-my-secondary font-onest font-bold text-white rounded-md py-4 text-sm md:text-lg' whileHover={{ scale: 0.8 }} whileTap={{ scale: 0.8 }}>
                     SEND MESSAGE NOW
-                </button>
+                </motion.button>
             </form>
         </section>
     )

@@ -8,7 +8,7 @@ const ProcessFlow = () => {
     return (
         <section className='mt-[4rem] flex flex-col gap-2 justify-center'>
             <div className='flex flex-col gap-3'>
-                <label className='text-secondary font-medium font-inter text-[11px] flex flex-col items-center'>
+                <label className='text-my-secondary font-medium font-inter text-[11px] flex flex-col items-center'>
                     PROCESS FLOW
                     <svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M14 2L2 2" stroke="#E15A85" strokeWidth="4" strokeLinecap="round" />
