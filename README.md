@@ -203,7 +203,7 @@ This system is currently under development and is intended for educational purpo
 ## CNN Model Results 
 
 ### MIT-BIH Accuracy
-![MIT-BIH Accuracy](backEnd%2Fresults%2Fmit-bih_accuracy.png)
+![mit-bih_accuracy.png](backEnd%2Fresults%2Fmit-bih_accuracy.png)
 ### PTB Accuracy
 ![PTB_Accuracy.png](backEnd%2Fresults%2FPTB_Accuracy.png)
 
