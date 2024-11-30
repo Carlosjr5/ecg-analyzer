@@ -78,8 +78,8 @@ const Footer = () => {
             </footer>
 
             <div className='p-5 flex flex-col justify-between bg-primary-100 gap-1 text-center md:flex-row md:text-left'>
-                <p className='text-sm'><strong className='text-secondary'>© ECG Analysis Platform</strong>, All Right Reserved, 2024.</p>
-                <p className='text-sm'>Designed By <strong className='text-secondary'>Group-04</strong></p>
+                <p className='text-sm'>© ECG Analysis Platform. All Right Reserved, 2024.</p>
+                <p className='text-sm'>Designed By Group-04</p>
             </div>
         </>
 
