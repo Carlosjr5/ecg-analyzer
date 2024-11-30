@@ -141,7 +141,15 @@ source ./ECGenv/bin/activate
 7. Go to the backEnd directory and install the libraries needed.
 ```bash
 cd backEnd
-pip install pandas numpy matplotlib scikit-learn keras seaborn tensorflow flask flask_cors
+pip install pandas 
+pip install numpy 
+pip install matplotlib 
+pip install scikit-learn 
+pip install keras 
+pip install seaborn 
+pip install tensorflow 
+pip install flask 
+pip install flask_cors
 ```
 
 8. In the same directory 'backEnd' Train model.
@@ -191,3 +199,18 @@ Make sure to download the `mitbih_train.csv`, `mitbih_test.csv`, `ptdbd_abnormal
 ## Disclaimer
 
 This system is currently under development and is intended for educational purposes only. It should not be used in production or for real-world diagnostic applications.
+
+## CNN Model Results 
+
+### MIT-BIH Accuracy
+![mit-bih_accuracy.png](backEnd%2Fresults%2Fmit-bih_accuracy.png)
+### PTB Accuracy
+![PTB_Accuracy.png](backEnd%2Fresults%2FPTB_Accuracy.png)
+
+### Confusion Matrix & Training History
+
+![Screenshot 2024-11-30 at 6.00.13 PM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8d1c88c6-f85f-4810-bb69-1af5caab8169/80f37c18-a4ff-4a33-a834-d4b798b7c00f/Screenshot_2024-11-30_at_6.00.13_PM.png)
+![confusion_matrix_MIT-BIH.png](backEnd%2Fresults%2Fconfusion_matrix_MIT-BIH.png)
+![confusion_matrix_PTB.png](backEnd%2Fresults%2Fconfusion_matrix_PTB.png)
+![training_history_MIT-BIH.png](backEnd%2Fresults%2Ftraining_history_MIT-BIH.png)
+![training_history_PTB.png](backEnd%2Fresults%2Ftraining_history_PTB.png)
