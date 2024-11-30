@@ -9,6 +9,7 @@ import CaptureEcgButton from "../home/capture-ecg-button";
 import heroImage from "../../images/hero-image.png";
 import ecgBackground from "../../images/ecg-background.jpg";
 import uploadEcgIcon from "../../images/upload-ecg-icon.svg";
+import { NavLink } from "react-router-dom";
 
 const Hero = () => {
 
@@ -38,7 +39,7 @@ const Hero = () => {
             sm:w-full
             ">
                 <img className="absolute" src={ecgBackground} alt="ecg-background" />
-                <h1 className="text-balance text-3xl text-center text-primary-200 font-onest font-bold leading-tight z-10 relative  
+                <h1 className="text-balance text-3xl text-center text-primary-200 font-onest font-bold leading-tight z-10 relative
                 sm:text-4xl sm:text-center
                 md:text-left md:text-5xl
                 lg:text-5xl
@@ -46,7 +47,7 @@ const Hero = () => {
                     Welcome to ECG Analysis
                     Platform.
                 </h1>
-                <p className="text-balance w-full m-auto text-center text-sm z-10 font-inter font-light leading-relaxed relative 
+                <p className="text-balance w-full m-auto text-center text-sm z-10 font-inter font-light leading-relaxed relative
                 sm:text-center sm:w-2/3 sm:m-auto
                 md:text-base md:text-full md:w-full md:text-left
                 lg:w-2/3 lg:m-0">
@@ -57,10 +58,16 @@ const Hero = () => {
                 <div className="flex flex-col gap-4 z-10 justify-center w-fit m-auto
                 md:flex-row md:m-0
                 ">
-                    <UploadEcgButton style="default">
-                        <img src={uploadEcgIcon} alt="upload-ecg-svg" />
-                        UPLOAD ECG FILE
-                    </UploadEcgButton>
+                    <NavLink
+                        to="/analysis-result"
+                    >
+                        <div className="transform transition text-[14px] outline-none rounded-lg cursor-pointer font-onest font-bold text-primary-200 bg-primary-100 px-2 py-4 flex justify-center items-center gap-2 heartbeat2 sm:text-[13px] sm:px-3 sm:py-2 md:text-[12px] md:px-3 md:py-3 lg:text-[14px]">
+                            <img src={uploadEcgIcon} alt="upload-ecg-svg" />
+                            START UPLOAD NOW
+                        </div>
+                    </NavLink>
+
+
                     {/* <CaptureEcgButton handleImageValidation={handleImageValidation} /> */}
                 </div>
                 {error && (

@@ -117,7 +117,7 @@ const AnalysisResult = () => {
 
     return (
         <section className="w-[85%] m-auto mt-[10rem] flex flex-col gap-12">
-            <h1 className="text-xl text-primary-200 font-onest font-bold sm:text-4xl md:text-3xl">
+            <h1 className="text-xl text-primary-200 font-onest font-bold sm:text-4xl md:text-3xl text-center">
                 My Analysis Results
             </h1>
 
@@ -125,7 +125,7 @@ const AnalysisResult = () => {
             <Dialog open={isOpen} onOpenChange={setIsOpen}>
                 <DialogTrigger asChild>
                     <motion.div
-                        className="w-[300px] h-[100px] flex items-center justify-center border border-primary-200 rounded-lg text-primary-200 cursor-pointer hover:bg-primary-200/10 transition-all"
+                        className="w-[300px] h-[100px] flex items-center justify-center border border-primary-200 rounded-lg text-primary-200 cursor-pointer hover:bg-primary-200/10 transition-all m-auto"
                         animate={{ scale: [1, 1.05, 1] }}
                         transition={{ duration: 1.5, ease: "easeInOut", repeat: Infinity }}
                     >
