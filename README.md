@@ -183,10 +183,6 @@ This project is licensed under the MIT License
 - Ahmed.
 - Chirag.
 
-## 📧 Web Page
-
-Project Link: [ECG Analyzer](https://github.com/yourusername/ecg-analyzer)
-
 
 ## Dataset Reference
 
