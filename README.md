@@ -162,7 +162,7 @@ python train.py
 python app.py
 ```
 
-10. Go on the development server link & Analyze your patience ECG!
+10. Go on the development server link & Analyze your patients ECG!
 
 ## 🚀 Usage
 
